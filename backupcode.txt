@@ -1,0 +1,141 @@
+
+        <div>
+            <img src="" alt="" id="header-img">
+        </div>
+
+        <div>
+            <nav id="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#" class="">
+                            <img src="../img/university_of_Helsinki_logo.PNG" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="">
+                            <input type="search" name="search" id="search" placeholder="search the website">
+                        </a>
+                        <i class="fas fa-search"></i>
+                    </li>
+                    <li>
+                        <a href="ambassador.html#home" class="">
+                            <i class="fas fa-home"></i>Home</a>
+                    </li>
+                    <li>
+                        <a href="ambassador.html#gallery" class="nav-link">
+                            <i class="fas fa-images"></i>Gallery</a>
+                    </li>
+                    <li>
+                        <a href="ambassador.html#profiles" class="nav-link">Profiles</a>
+                    </li>
+                    <li>
+                        <a href="ambassador.html#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+     
+
+
+
+
+
+   <section>
+            <div>
+                <h1>We Organise</h1>
+                <p>Welcome Fair</p>
+                <p>Trip to Tallin</p>
+                <p>Trip to Sweden</p>
+                <p>Trip around Finland</p>
+                <p>Outing with The Ambassadors</p>
+            </div>
+        </section>
+
+        <aside>
+            <h4>Also check</h4>
+            <ul>
+                <li>The University's Main Page</li>
+                <li>Flamma</li>
+                <li>weboodi</li>
+                <li>Moodle</li>
+                <li>Unigrafia</li>
+                <li>Unisport</li>
+            </ul>
+        </aside>
+
+        <section>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <legend>Subsbribe</legend>
+
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Firstname Lastname">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email">
+                </div>
+
+                <div>
+                    <label for="tel">Mobile Number</label>
+                    <input type="tel" name="tel" id="tel" placeholder="Enter your Mobile Number">
+                </div>
+                <input id="submit" type="submit" value="subscribe">
+            </form>
+        </section>
+
+        <section id="videos">
+            <iframe id="video" src="https://www.youtube.com/embed/rU232NPDVtQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/lAE7Z-ih944" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/gFKriRvKwzg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/tjAtsPHQgQ0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/IT_c1wmoKbs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </section>
+
+        <section id="pics" class="scroller">
+            <ul>
+                <li>
+                    <img src="../img/image1.jpg" alt="image1">
+                </li>
+                <li>
+                    <img src="../img/image2.jpg" alt="image2">
+                </li>
+                <li>
+                    <img src="../img/image3.jpg" alt="image3">
+                </li>
+                <li>
+                    <img src="../img/image4.jpg" alt="image4">
+                </li>
+                <li>
+                    <img src="../img/image5.jpg" alt="image5">
+                </li>
+                <li>
+                    <img src="../img/image6.jpg" alt="image6">
+                </li>
+                <li>
+                    <img src="../img/image7.jpg" alt="image7">
+                </li>
+                <li>
+                    <img src="../img/image8.jpg" alt="image8">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <div>
+                <p>put al the social media svgs here</p>
+            </div>
+
+            <div>
+                <form action="#">
+                    <input type="text" name="name" id="name" placeholder="Enter your Name">
+                    <input type="text" placeholder="Enter your Email">
+                    <textarea name="contact" id="contact" cols="30" rows="2" placeholder="Enter your Message Here"></textarea>
+                </form>
+            </div>
+        </section>
