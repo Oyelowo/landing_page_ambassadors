@@ -133,6 +133,16 @@ h1, h2, h3{
        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
    }
 
+   .ambassador{
+       display: flex;
+       flex-direction: row;
+       list-style: none;
+       justify-content: space-around;
+   }
+
+   #logo{
+       width: 30px;
+   }
    #section-a .content-text{
        columns: 2;
        column-gap: 2em;
@@ -157,6 +167,5 @@ h1, h2, h3{
     #section-b li{
        width: 31%; 
    }
-
 
 }
