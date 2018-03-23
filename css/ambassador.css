@@ -134,16 +134,10 @@ h1, h2, h3{
     position: fixed;
     background-color: black;
     overflow: hidden;
-    height: 53px;
-    border: green 1px solid;
-}
-
-.btn-close{
-    text-align: start;
+    height: 4rem;
 }
 
 #nav-mobile{
-    border: red 1px solid;
     position: relative;
 }
 
@@ -154,27 +148,7 @@ h1, h2, h3{
 #slider-svg{
     color: beige;
     font-size: 1.5rem;
-    border: red 1px solid;
 }
-
-    /* #nav-grid2 a{
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: start;
-        text-decoration: none;
-        font-size: 17px;
-    } */
-    
-    /* #nav-grid2 ul{
-        margin: 7px 0 0 0;
-        list-style: none;
-    }
-     */
-    /* #nav-mobile a:hover{
-        background: #ddd;
-        color: #000;
-    } */
     
     #side-nav{
         height: 100%;
@@ -187,7 +161,6 @@ h1, h2, h3{
         overflow: hidden;
         padding-top: 4rem;
         transition: 0.4s;
-        border: 1px red solid;
     }
     
     
@@ -199,16 +172,16 @@ h1, h2, h3{
         transition: 0.3s;
     }
     
-    #side-nav a:hover{
-        color: #fff;
+    #side-nav a:not(.btn-close):hover{
+        color: black;
+        background-color: #aaa;
     }
     
     #side-nav .btn-close{
         position: absolute;
         top: 0;
-        right: 22px;
-        font-size: 36px;
-        margin-left: 58px;
+        right: 1.4rem;
+        font-size: 2rem;
     }
     
     #main{
@@ -220,8 +193,9 @@ h1, h2, h3{
     .nav-bar > :not(:first-child){
         display: none;
     }
-    
-    #nav-grid{
+  
+    /* hide the big nav bar */
+    #nav-grid:not(#nav-center){
         display: none;
     }
 }
