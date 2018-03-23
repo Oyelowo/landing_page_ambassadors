@@ -263,15 +263,14 @@ body{
     #nav-right ul :not(:first-child){
         display: none;
     }
-    /* push the grid forward, so it does not cover the slider */
-    #nav-grid{
-     padding-left: 3rem;
-     position: absolute;
-     width: 100%;
-     overflow: hidden;
-     border: 1px red solid;
-    }
 
+    #nav-left{
+        display: inline;
+        padding-left: 3rem;
+        border: 1px red solid; 
+    }
+    /* push the grid forward, so it does not cover the slider */
+  
     /* #logo, #nav-center, */
 }
 
