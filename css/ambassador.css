@@ -266,8 +266,10 @@ body{
     /* push the grid forward, so it does not cover the slider */
     #nav-grid{
      left: 3rem;
-     position: absolute;
+     overflow: hidden;
     }
+
+    /* #logo, #nav-center, */
 }
 
 
