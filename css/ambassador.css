@@ -265,10 +265,11 @@ body{
     }
     /* push the grid forward, so it does not cover the slider */
     #nav-grid{
-     left: 3rem;
+     padding-left: 3rem;
      position: absolute;
      width: 100%;
      overflow: hidden;
+     border: 1px red solid;
     }
 
     /* #logo, #nav-center, */
