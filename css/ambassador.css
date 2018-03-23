@@ -134,6 +134,18 @@ h1, h2, h3{
        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
    }
 
+   /* put the search svg in the search bar */
+   #nav-center{
+       position: relative;
+   }
+   #search-svg{
+       position: absolute;
+       top: 0.1rem;
+       color: #aaa;
+       right: 0;
+   }
+/* ends here */
+
    #nav-grid{
    display: flex;
    justify-content: space-between;
@@ -142,20 +154,21 @@ h1, h2, h3{
    background: #000000;
    position: fixed;
    width: 100%;
-   font-size: 85%;
-   font-weight: bolder;
+   font-size: 83%;
+   font-weight: bold;
+   font-stretch: condensed;
    cursor: pointer;
    }
 
    #nav-right ul{
        display: grid;
        grid-template-columns: repeat(6, 1fr);
-       grid-column-gap: 20px;
        list-style: none;
    }
 
    #nav-right ul li{
        padding: 0.5rem 0.3rem;
+       background: #111111;
    }
 
    #nav-right ul li:hover{
