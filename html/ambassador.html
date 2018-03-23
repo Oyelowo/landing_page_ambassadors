@@ -18,88 +18,94 @@
 <body>
 
     <nav id="nav-grid">
-        <div class="slide-open">
-            <a href="#" onclick="openSlideNav()">
-                <i class="fas fa-bars"></i>
-
+        <div id="nav-left">
+            <img id="logo" src="../img/university_of_Helsinki_logo2.PNG" alt="logo">
         </div>
 
-        <div id="nav-bar">
-            <div id="nav-left">
-                <img id="logo" src="../img/university_of_Helsinki_logo2.PNG" alt="logo">
-            </div>
-
-            <div id="nav-center">
-                <input type="search" name="search" id="search" placeholder="search page">
-                <span id="search-svg">
-                    <i class="fas fa-search"></i>
-                </span>
-            </div>
-
-            <div id="nav-right">
-                <ul>
-                    <li>
-                        <i class="fas fa-home"></i><a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Activities</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fas fa-images"></i>Gallery</a>
-                    </li>
-                    <li class="amb-dropdown">
-                        <div class="dropdown-btn">Profiles</div>
-                        <div class="dropdown-content">
-                            <a href="#">New Ambassadors</a>
-                            <a href="#">Old Ambassadors</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                </ul>
-
-
-            </div>
-
+        <div id="nav-center">
+            <input type="search" name="search" id="search" placeholder="search page">
+            <span id="search-svg">
+                <i class="fas fa-search"></i>
+            </span>
         </div>
 
+        <div id="nav-right">
+            <ul>
+                <li>
+                    <i class="fas fa-home"></i>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Activities</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-images"></i>Gallery</a>
+                </li>
+                <li class="amb-dropdown">
+                    <div class="dropdown-btn">Profiles</div>
+                    <div class="dropdown-content">
+                        <a href="#">New Ambassadors</a>
+                        <a href="#">Old Ambassadors</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+
+
+        </div>
 
 
     </nav>
 
-        <!-- created for the slide burger bar to be rabbed by the javascript -->
-        <div id="side-nav">
-                <a href="#" class="btn-close" onclick="closeSlideNav()">&times;</a>
-                <a href="#">Home</a>
-                <a href="#">Activities</a>
-                <a href="#">Gallery</a>
-                <a href="#">Profiles</a>
-                <a href="#">Contact</a>
-                <a href="#">About</a>
-            </div>
+    <div id="nav-grid2">
+    <div class="slide-open">
+            <a href="#" onclick="openSlideNav()">
+                <!-- <i class="fas fa-bars"></i> -->
+                <svg width="28" height="28">
+                    <path d="M0,5 28,5" stroke="#666" stroke-width="4"></path>
+                    <path d="M0,14 28,14" stroke="#666" stroke-width="4"></path>
+                    <path d="M0,23 28,23" stroke="#666" stroke-width="4"></path>
+                </svg>
+            </a>
+        </div>
+
+    <!-- created for the slide burger bar to be rabbed by the javascript -->
+    <div id="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Activities</a>
+        <a href="#">Gallery</a>
+        <a href="#">Profiles</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+    </div>
+
+</div>
 
 
-             
+
+
     <!-- main area -->
     <main id="main">
-        
-    <header id="header" class="grid">
-        <div class="background-img"></div>
-        <div class="content-wrap ">
-            <h1>Welcome To The University Of Helsinki</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolorum fuga harum pariatur, ad error dolor ipsam
-                sint, ducimus odio corrupti exercitationem voluptates facere porro praesentium nesciunt, labore totam ea!</p>
 
-            <a href="ambassador.html#section-b" class="btn">Read More</a>
-        </div>
-    </header>
+        <header id="header" class="grid">
+            <div class="background-img"></div>
+            <div class="content-wrap ">
+                <h1>Welcome To The University Of Helsinki</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolorum fuga harum pariatur, ad error dolor
+                    ipsam sint, ducimus odio corrupti exercitationem voluptates facere porro praesentium nesciunt, labore
+                    totam ea!</p>
 
+                <a href="ambassador.html#section-b" class="btn">Read More</a>
+            </div>
+        </header>
 
-   
 
         <!-- section A -->
         <section id="section-a" class="grid">
@@ -172,7 +178,7 @@
                 <h2 class="content-title">Contact us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In distinctio repellendus veritatis? Quis velit
                     natus quibusdam repudiandae blanditiis provident qui.</p>
-                <p>contact@oyelowooyedayogmail.com</p>
+                <p>contact@oyelowooyedayo€gmail.com</p>
             </div>
 
             <div class="box">

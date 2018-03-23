@@ -6,106 +6,8 @@ body{
     text-align: center;
     line-height: 1.5;
     color: #fff;
-    overflow-x: hidden;
 
 }
-
-
-#nav-grid{
-    background-color: black;
-    overflow-x: hidden;
-    height: 5.5rem;
-}
-
-#nav-grid a{
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-
-}
-
-#nav-grid ul{
-    margin: 7px 0 0 0;
-    list-style: none;
-}
-
-#nav-grid a:hover{
-    background: #ddd;
-    color: #000;
-}
-
-#side-nav{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #000000;
-    opacity: 0.9;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s;
-}
-
-
-#side-nav a{
-    padding: 10px 10px 10px 30px;
-    text-decoration: none;
-    font-size: 22px;
-    color: #ccc;
-    transition: 0.3s;
-}
-
-#side-nav a:hover{
-    color: #fff;
-}
-
-#side-nav .btn-close{
-    position: absolute;
-    top: 0;
-    right: 22px;
-    font-size: 36px;
-    margin-left: 58px;
-}
-
-#main{
-    transition: margin-left 0.5s;
-    padding: 20px;
-    overflow: hidden;
-    width:100%;
-}
-
-#nav-bar > :not(:first-child){
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .card-img{
     display: block;
@@ -224,8 +126,94 @@ h1, h2, h3{
     text-decoration: none;
 }
 
+
+
+@media(max-width:700px){    
+    #nav-grid2{
+        background-color: black;
+        overflow: hidden;
+        height: 53px;
+    }
+    
+    #nav-grid2 a{
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    
+    }
+    
+    /* #nav-grid2 ul{
+        margin: 7px 0 0 0;
+        list-style: none;
+    }
+     */
+    #nav-grid2 a:hover{
+        background: #ddd;
+        color: #000;
+    }
+    
+    #side-nav{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #000000;
+        opacity: 0.9;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s;
+    }
+    
+    
+    #side-nav a{
+        padding: 10px 10px 10px 30px;
+        text-decoration: none;
+        font-size: 22px;
+        color: #ccc;
+        transition: 0.3s;
+    }
+    
+    #side-nav a:hover{
+        color: #fff;
+    }
+    
+    #side-nav .btn-close{
+        position: absolute;
+        top: 0;
+        right: 22px;
+        font-size: 36px;
+        margin-left: 58px;
+    }
+    
+    #main{
+        transition: margin-left 0.5s;
+        overflow-x: hidden;
+        width:100%;
+    }
+    
+    .nav-bar > :not(:first-child){
+        display: none;
+    }
+    
+    #nav-grid{
+        display: none;
+    }
+   
+}
+
 /* media query */
 @media(min-width: 700px){
+    .slide-open, #side-nav{
+        display: none;
+    }
    .grid{
        display: grid;
        /* this makes the text spread out */
@@ -298,7 +286,6 @@ h1, h2, h3{
    }
 
 
-
    .amb-dropdown:hover .dropdown-content{
     display: block;
     /* makes sure it does not disturb the flow */
@@ -308,32 +295,6 @@ h1, h2, h3{
     background-color: rgb(163, 223, 86);
     box-shadow: 1px 8px 16px 1px rgba(0,0,0,0.3);
    }
-/* end of nav-bar styling */
-
-
-    /* .dropdown-content {
-        display: none;
-        position: absolute;
-        min-width: 160px;
-        background-color: rgb(163, 223, 86);
-        box-shadow: 1px 8px 16px 1px rgba(0,0,0,0.3);
-        z-index: 1;
-    }
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-    .dropdown-content a:hover {
-        background-color: #ddd;
-    }
-    .amb-dropdown:hover .dropdown-content {
-        display: block;
-    }
-    .amb-dropdown:hover .dropdown-btn {
-        background-color: grey;
-    } */
 
 
    #section-a .content-text{
@@ -363,25 +324,3 @@ h1, h2, h3{
 
 }
 
-
-
-
-   /* alternative for nav bar */
-   /* #nav-grid{
-       display: grid;
-       grid-template-columns: repeat(12, 1fr);
-   }
-   #left{
-       grid-column: 1/2;
-   }
-   #center{
-       grid-column: 4/5;
-   }
-   #right{
-       grid-column: 6/13;
-   }
-   #right ul{
-       display: flex;
-       justify-content: space-around;
-       list-style: none;
-   } */
