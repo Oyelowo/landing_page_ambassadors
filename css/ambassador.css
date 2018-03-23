@@ -267,7 +267,7 @@ body{
     #nav-grid{
      left: 3rem;
      position: absolute;
-     align-self: auto;
+     width: 100vw;
      overflow: hidden;
     }
 
