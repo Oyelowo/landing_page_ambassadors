@@ -138,7 +138,7 @@ h1, h2, h3{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   height: 8vh;
+   height: 3rem;
    background: rgb(46, 51, 40);
    position: fixed;
    width: 100%;
