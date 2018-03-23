@@ -138,11 +138,12 @@ h1, h2, h3{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   height: 5rem;
-   background: rgb(46, 51, 40);
+   height: 3rem;
+   background: #000000;
    position: fixed;
    width: 100%;
-   font-size: 80%;
+   font-size: 85%;
+   font-weight: bolder;
    cursor: pointer;
    }
 
