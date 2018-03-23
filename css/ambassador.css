@@ -171,33 +171,31 @@ h1, h2, h3{
         list-style: none;
     }
      */
-    #nav-mobile a:hover{
+    /* #nav-mobile a:hover{
         background: #ddd;
         color: #000;
-    }
+    } */
     
     #side-nav{
-        display: flex;
-        flex-direction: column;
         height: 100%;
-        width: 0;
         position: fixed;
         z-index: 1;
         top: 0;
         left: 0;
         background-color: #000000;
-        opacity: 0.9;
-        overflow-x: hidden;
-        padding-top: 60px;
-        transition: 0.5s;
+        opacity: 0.8;
+        overflow: hidden;
+        padding-top: 4rem;
+        transition: 0.4s;
+        border: 1px red solid;
     }
     
     
     #side-nav a{
-        padding: 10px 10px 10px 30px;
+        display: block;
         text-decoration: none;
-        font-size: 22px;
-        color: #ccc;
+        font-size: 1.4rem;
+        color: hsl(0, 0%, 80%);
         transition: 0.3s;
     }
     
