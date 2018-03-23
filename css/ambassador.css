@@ -143,19 +143,29 @@ h1, h2, h3{
    position: fixed;
    width: 100%;
    font-size: 80%;
+   cursor: pointer;
    }
 
-   #right ul{
+   #nav-right ul{
        display: grid;
        grid-template-columns: repeat(6, 1fr);
        grid-column-gap: 20px;
        list-style: none;
    }
 
+   #nav-right ul li{
+       padding: 0.5rem 0.3rem;
+   }
+
+   #nav-right ul li:hover{
+    background: grey;
+   }
+
 
 /* create a dropdown for profile on nav-bar */
    .dropdown-content{
        display: none;
+       
    }
 
    .dropdown-content a{
@@ -170,7 +180,7 @@ h1, h2, h3{
        background: #666;
        color: #eaeaea;
    }
- 
+
    .amb-dropdown:hover .dropdown-content{
     display: block;
     /* makes sure it does not disturb the flow */
