@@ -178,8 +178,7 @@ h1, h2, h3{
 
 /* create a dropdown for profile on nav-bar */
    .dropdown-content{
-       display: none;
-       
+       display: none;       
    }
 
    .dropdown-content a{
@@ -194,6 +193,13 @@ h1, h2, h3{
        background: #666;
        color: #eaeaea;
    }
+
+   #nav-grid a{
+       text-decoration: none;
+       color: white;
+   }
+
+
 
    .amb-dropdown:hover .dropdown-content{
     display: block;
