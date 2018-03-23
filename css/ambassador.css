@@ -134,24 +134,28 @@ h1, h2, h3{
        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
    }
 
-   /* .ambassador{
-       display: flex;
-       flex-direction: row;
-       list-style: none;
-       justify-content: space-around;
-   } */
-
-
-
-
-   
-
-   #logo{
-       width: 30px;
-       border: 1px solid red;
+   #nav-grid{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 8vh;
+   background: rgb(46, 51, 40);
+   position: fixed;
+   width: 100%;
    }
 
-   
+   #right ul{
+       display: grid;
+       grid-template-columns: repeat(5, 1fr);
+       grid-column-gap: 20px;
+       list-style: none;
+   }
+
+   #right ul li{
+       border: 1px red solid;
+       font-size: 80%;
+   }
+
 
 
    #section-a .content-text{
