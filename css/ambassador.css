@@ -212,8 +212,8 @@ body{
 }
 #nav-mobile{
     background-color: black;
-    overflow: hidden;
     height: 4rem;
+
 }
 
 #slider{
@@ -227,7 +227,7 @@ body{
     
     #side-nav{
         height: 100%;
-        position: fixed;
+        position: absolute;
         z-index: 1;
         top: 0;
         left: 0;
@@ -267,7 +267,7 @@ body{
     #nav-grid{
      left: 3rem;
      position: absolute;
-     width: 100vw;
+     width: 16.975rem;
      overflow: hidden;
     }
 
