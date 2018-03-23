@@ -265,7 +265,7 @@ body{
     }
     /* push the grid forward, so it does not cover the slider */
     #nav-grid{
-     left: 4rem;
+     left: 3rem;
     }
 }
 
