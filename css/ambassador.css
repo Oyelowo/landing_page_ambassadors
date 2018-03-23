@@ -207,15 +207,13 @@ h1, h2, h3{
 
 /* media query */
 @media(max-width: 700px){
+body{
+    overflow-x: hidden;
+}
 #nav-mobile{
-    position: fixed;
     background-color: black;
     overflow: hidden;
     height: 4rem;
-}
-
-#nav-mobile{
-    position: relative;
 }
 
 #slider{
@@ -224,7 +222,7 @@ h1, h2, h3{
 
 #slider-svg{
     color: beige;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
     
     #side-nav{
@@ -261,27 +259,15 @@ h1, h2, h3{
         font-size: 2rem;
     }
     
-    #main{
-        overflow-x: hidden;
-        width:100%;
-    }
-    
-  
     /* hide the big nav bar */
     #nav-right ul :not(:first-child){
         display: none;
     }
+    /* push the grid forward, so it does not cover the slider */
     #nav-grid{
-     z-index: 1;
-     border: 1px red solid;
-     position: absolute;
-     left: 3rem;
+     left: 4rem;
     }
 }
-
-
-
-
 
 
 
