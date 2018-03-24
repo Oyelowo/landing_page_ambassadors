@@ -254,9 +254,14 @@ body{
     #side-nav a{
         display: block;
         text-decoration: none;
+        text-align: start;
+        padding-left: 1rem;
         font-size: 1.4rem;
         color: hsl(0, 0%, 80%);
         transition: 0.3s;
+    }
+    #side-nav a:nth-child(even){
+       background: #111111;
     }
     
     #side-nav a:not(.btn-close):hover{
