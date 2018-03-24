@@ -8,143 +8,143 @@ body{
     color: #fff;
 }
 
-.card-img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
+    .card-img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
 
-p{
-    margin: 0;
-    padding: 1em 0;
-}
+    p{
+        margin: 0;
+        padding: 1em 0;
+    }
 
-h1, h2, h3{
-    margin: 0;
-    padding: 1em 0;
-}
+    h1, h2, h3{
+        margin: 0;
+        padding: 1em 0;
+    }
 
-.btn{
-    display: inline-block;
-    background: #333333;
-    text-decoration: none;
-    padding: 1em 2em;
-    border: 1px solid #666;
-    color: white;
-    margin: .5em 0;
-}
+    h1{
+        font-size: 120%;
+    }
 
-.btn:hover{
-    background: #eaeaea;
-    color: #333;
-}
+    .btn{
+        display: inline-block;
+        background: #333333;
+        text-decoration: none;
+        padding: 1em 2em;
+        border: 1px solid #666;
+        color: white;
+        margin: .5em 0;
+    }
 
-/* Header area */
+    .btn:hover{
+        background: #eaeaea;
+        color: #333;
+    }
 
-#header{
-    min-height: 450px;
-    color: #fff;
-    text-align: center;
-}
+    /* Header area */
 
-#header-img{
-    z-index: 5;
-}
+    #header{
+        min-height: 450px;
+        color: #fff;
+        text-align: center;
+    }
 
-#header .background-img{
-    position: absolute;
-    background: #333 url("../img/image1.jpg");
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 450px;
-    z-index: -1;
-    opacity: 0.3;
-}
+    #header .background-img{
+        position: absolute;
+        background: #333 url("../img/image1.jpg");
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 450px;
+        z-index: -1;
+        opacity: 0.3;
+    }
 
-#header h1{
-    padding-top: 100px;
-    padding-bottom: 0px;
-}
+    #header h1{
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
 
-#header .content-wrap, 
-#section-1 .content-wrap{
-    padding: 0 1.5em;
-}
+    #header .content-wrap, 
+    #section-1 .content-wrap{
+        padding: 0 1.5em;
+    }
 
-/* section 1 */
-#section-1{
-    background: url("../img/grunge_wall.png");
-    color: #333;
-    padding-bottom: 2em;
-}
-
-
-/* section 2 */
-#section-2{
-    padding: 2em 1em 1em;
-}
-
-#section-2 ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-#section-2 li{
-    margin-bottom: 1em;
-    background: #fff;
-    color: #333;
-}
-
-#section-2 img{
-    height: 40vh;
-}
-
-.card-content p{
-    padding: 1rem;
-}
-#section-3{
-    background: url("https://oyelowo.github.io/landing_page_ambassadors/img/grunge_wall.png");
-    color: #333;
-    padding: 2em;
-}
-
-/* section 4/Boxes */
-#section-4 .box{
-    padding: 1em;
-    color: #fff;
-}
+    /* section 1 */
+    #section-1{
+        background: url("../img/grunge_wall.png");
+        color: #333;
+        padding-bottom: 2em;
+    }
 
 
+    /* section 2 */
+    #section-2{
+        padding: 2em 1em 1em;
+    }
 
-#section-4 .box:first-child{
-    background: rgb(11, 40, 41);
-}
+    #section-2 ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
 
-#section-4 .box:nth-child(2){
-    background: #222222;
-}
+    #section-2 li{
+        margin-bottom: 1em;
+        background: #fff;
+        color: #333;
+    }
 
-#social-media{
-    display: inline-block;
-}
-#social-media img{
-    width: 7%;
-}
+    #section-2 img{
+        height: 40vh;
+    }
 
-/* footer */
-#main-footer{
-    padding: 2em;
-    background: #000;
-    color: white;
-}
+    .card-content p{
+        padding: 1rem;
+    }
+    #section-3{
+        background: url("https://oyelowo.github.io/landing_page_ambassadors/img/grunge_wall.png");
+        color: #333;
+        padding: 2em;
+    }
 
-#main-footer a{
-    color: rgb(163, 214, 45);
-    text-decoration: none;
-}
+    /* section 4/Boxes */
+    #section-4 .box{
+        padding: 1em;
+        color: #fff;
+    }
+
+
+
+    #section-4 .box:first-child{
+        background: rgb(11, 40, 41);
+    }
+
+    #section-4 .box:nth-child(2){
+        background: #222222;
+    }
+
+    #social-media{
+        display: inline-block;
+    }
+    #social-media img{
+        width: 7%;
+    }
+
+    /* footer */
+    #main-footer{
+        padding: 2em;
+        background: #000;
+        color: white;
+    }
+
+    #main-footer a{
+        color: rgb(163, 214, 45);
+        text-decoration: none;
+    }
 
    /* put the search svg in the search bar */
    #search{
