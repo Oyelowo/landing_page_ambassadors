@@ -128,7 +128,7 @@ h1, h2, h3{
 
    /* put the search svg in the search bar */
    #search{
-       width: 25vw;
+       min-width: 25vw;
        height: 1.45rem;
    }
    
@@ -293,6 +293,7 @@ body{
     .slide-open, #side-nav{
         display: none;
     }
+
    .grid{
        display: grid;
        /* this makes the text spread out */
