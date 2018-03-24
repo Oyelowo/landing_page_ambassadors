@@ -301,10 +301,10 @@ body{
         background: #111;
     }
 
-    #video{
+    .video{
         background: black;
     }
-    #video iframe{
+    #video{
         width: 70vw; 
         padding: 1rem;
         min-height: 50vh;
@@ -337,11 +337,11 @@ body{
        grid-column: 2/4;
    }
 
-   #video{
+   .video{
     background: whitesmoke;
 }
 
-    #video iframe{
+    #video{
     padding: 1rem;
     width: 45vw;
     min-height: 50vh;
