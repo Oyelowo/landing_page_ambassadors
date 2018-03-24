@@ -127,19 +127,27 @@ h1, h2, h3{
 }
 
    /* put the search svg in the search bar */
+   #search{
+       width: 25vw;
+       height: 1.45rem;
+   }
+   
    #nav-center{
        position: relative;
    }
    
    #search-svg{
        position: absolute;
-       top: 0.07rem;
+       top: 0.0rem;
        color: #eaeaea;
-       right: -0.8rem;
-       background: #bbb;
-       font-size: 0.9rem;
-       
+       right: -2.6rem;
+       background: #ccc;
+       font-size: 0.875rem;
+       padding: 0.07rem 0.9rem;
+   }
 
+   #search-svg:hover{
+       background: #888;
    }
 /* ends here */
 
