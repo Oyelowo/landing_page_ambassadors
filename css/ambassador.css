@@ -76,7 +76,7 @@ h1, h2, h3{
 
 /* section 1 */
 #section-1{
-    background: #eaeaea;
+    background: url("../img/grunge_wall.png");
     color: #333;
     padding-bottom: 2em;
 }
@@ -104,19 +104,30 @@ h1, h2, h3{
 }
 
 #section-3{
-    background: #fff;
+    background: url("../img/grunge_wall.png");
     color: #333;
     padding: 2em;
 }
 
 /* section 4/Boxes */
 #section-4 .box{
-    padding: 2em;
+    padding: 1em;
     color: #fff;
 }
 
 #section-4 .box:first-child{
-    background: rgb(73, 99, 13);
+    background: rgb(11, 40, 41);
+}
+
+#snapchat{
+    width: 4rem;
+    position: relative;
+    top: -1rem;
+}
+
+#social-media{
+    display: inline-block;
+    border: 1px solid red;
 }
 
 /* footer */
@@ -236,7 +247,6 @@ h1, h2, h3{
     #name, #email, #message{
         width: 100%;
     }
-
 
     #submit{
         display: block;
@@ -360,7 +370,7 @@ body{
    }
 
    .video{
-    background: whitesmoke;
+    background: #444444;
 }
 
     #video{
