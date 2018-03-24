@@ -290,6 +290,7 @@ body{
         overflow: hidden;
         padding-top: 4rem;
         transition: 0.4s;
+        width: 0;  /*This prevents the website from opening the tab at default on smaller screen*/
     }
     
     
