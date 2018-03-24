@@ -183,6 +183,7 @@ body{
    font-weight: bold;
    font-stretch: condensed;
    cursor: pointer;
+   z-index: 2;
    }
 
    #nav-right ul{
@@ -262,22 +263,23 @@ body{
 
 /* MEDIA QUERY FOR SMALL SCREENS' NAVIGATION BAR*/
 @media(max-width: 768px){
-body{
-    overflow-x: hidden;
-}
-#nav-mobile{
-    background-color: black;
-    height: 4rem;
-}
+    body{
+        overflow-x: hidden;
+    }
+    #nav-mobile{
+        background-color: black;
+        height: 4rem;
+    }
 
-#slider{
-    position: absolute;
-}
+    #slider{
+        position: fixed;
+        z-index: 2;
+    }
 
-#slider-svg{
-    color: beige;
-    font-size: 2rem;
-}
+    #slider-svg{
+        color: beige;
+        font-size: 2rem;
+    }
     
     #side-nav{
         height: 100%;
