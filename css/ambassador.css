@@ -128,7 +128,7 @@ h1, h2, h3{
 
    /* put the search svg in the search bar */
    #search{
-       min-width: 25vw;
+       min-width: 29vw;
        height: 1.45rem;
    }
    
@@ -280,6 +280,13 @@ body{
     #nav-left{
         display: inline;
         padding-left: 3rem; 
+    }
+
+    /* place the home button to the right side for smaller screen */
+    #nav-right ul li{
+        /* grid-column: 3/5; */
+        grid-column-end: span 3;   /*alternative to above */
+        background: #111;
     }
     /* push the grid forward, so it does not cover the slider */
   
