@@ -329,7 +329,7 @@ body{
     justify-content: space-around;
 }
 #video iframe{
-    min-width: 38vw;
+    min-width: 45vw;
     min-height: 20rem;
     padding: 1rem;
 }
