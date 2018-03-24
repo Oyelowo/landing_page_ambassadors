@@ -271,6 +271,9 @@ body{
         font-size: 2rem;
     }
     
+    #nav-grid{
+        justify-content: space-between;
+    }
     /* hide the big nav bar */
     #nav-right ul :not(:first-child){
         display: none;
@@ -287,11 +290,8 @@ body{
         grid-column-end: span 5;   /*alternative to above */
         background: #111;
     }
-    /* push the grid forward, so it does not cover the slider */
-  
-    /* #logo, #nav-center, */
 }
-
+/* ENDS HERE */
 
 
 /* media query */
