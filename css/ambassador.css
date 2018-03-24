@@ -119,15 +119,15 @@ h1, h2, h3{
     background: rgb(11, 40, 41);
 }
 
-#snapchat{
-    width: 4rem;
-    position: relative;
-    top: -1rem;
+#section-4 .box:nth-child(2){
+    background: #222222;
 }
 
 #social-media{
-    display: inline-block;
-    border: 1px solid red;
+    display: block;
+}
+#social-media img{
+    width: 4rem;
 }
 
 /* footer */
