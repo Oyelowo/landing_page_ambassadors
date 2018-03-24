@@ -77,6 +77,7 @@ h1, h2, h3{
     padding-bottom: 2em;
 }
 
+
 /* section 2 */
 #section-2{
     padding: 2em 1em 1em;
@@ -322,6 +323,18 @@ body{
    .content-wrap{
        grid-column: 2/4;
    }
+
+   #video{
+    display: flex;
+    justify-content: space-around;
+}
+#video iframe{
+    min-width: 38vw;
+    min-height: 20rem;
+    padding: 1rem;
+}
+
+
    #section-2 ul{
        grid-column: span 4;
    }
