@@ -11,7 +11,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P"
         crossorigin="anonymous">
-        <link rel="icon" href="../img/university_of_Helsinki_logo2.PNG" type="image/PNG" sizes="16x16">
+    <link rel="icon" href="../img/university_of_Helsinki_logo2.PNG" type="image/PNG" sizes="16x16">
     <script src="../javascript/uh_ambassador.js"></script>
     <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
 </head>
@@ -23,83 +23,84 @@
     <main id="main" on-drag-down="closeSlideNav()" on-double-tap="closeSlideNav()" onclick="closeSlideNav()">
 
         <header id="header" class="grid">
-<!-- MAIN NAVIGATION BAR -->
-<nav id="nav-bar">
-        <div id="nav-left">
-            <img id="logo" src="../img/university_of_Helsinki_logo2.PNG" alt="logo">
-        </div>
+            <!-- MAIN NAVIGATION BAR -->
+            <nav id="nav-bar">
+                <div id="nav-left">
+                    <img id="logo" src="../img/university_of_Helsinki_logo2.PNG" alt="logo">
+                </div>
 
-        <div id="nav-center">
-            <input type="search" name="search" id="search" placeholder="search page">
-            <span id="search-svg">
-                <i class="fas fa-search"></i>
-            </span>
-        </div>
+                <div id="nav-center">
+                    <input type="search" name="search" id="search" placeholder="search page">
+                    <span id="search-svg">
+                        <i class="fas fa-search"></i>
+                    </span>
+                </div>
 
-        <div id="nav-right">
-            <ul>
-                <li>
-                    <i class="fas fa-home"></i>
-                    <a href="#home" class="nav-link">Home</a>
-                </li>
-                <li>
-                    <a href="#section-2" class="nav-link">Activities</a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-images"></i>Gallery</a>
-                </li>
-                <li class="amb-dropdown">
-                    <div class="dropdown-btn">Profiles</div>
-                    <div class="dropdown-content">
-                        <a href="#">New Ambassadors</a>
-                        <a href="#">Old Ambassadors</a>
-                    </div>
-                </li>
-                <li>
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-                <li>
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    
-    <!-- CREATE A NAVIGATION/MENU SLIDE FOR SMALLER SCREENS -->
-    <nav id="nav-mobile">
-        <div id="slider" class="slide-open">
-            <a href="#" onclick="openSlideNav()">
-                <span id="slider-svg">
-                    <i class="fas fa-bars"></i>
-                </span>
-            </a>
-        </div>
+                <div id="nav-right">
+                    <ul>
+                        <li>
+                            <i class="fas fa-home"></i>
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#section-2" class="nav-link">Activities</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-images"></i>Gallery</a>
+                        </li>
+                        <li class="amb-dropdown">
+                            <div class="dropdown-btn">Profiles</div>
+                            <div class="dropdown-content">
+                                <a href="#">New Ambassadors</a>
+                                <a href="#">Old Ambassadors</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
-        <!-- created for the slide burger bar to be rabbed by the javascript -->
-        <div id="side-nav">
-            <a href="#" class="btn-close" onclick="closeSlideNav()">&times;</a>
-            <a href="#">Home</a>
-            <a href="#">Activities</a>
-            <a href="#">Gallery</a>
-            <a href="#">Profiles</a>
-            <a href="#">Contact</a>
-            <a href="#">About</a>
-        </div>
-    </nav>
-    <!-- SLIDER FOR SMALLER SCREEN ENDS HERE -->
+            <!-- CREATE A NAVIGATION/MENU SLIDE FOR SMALLER SCREENS -->
+            <nav id="nav-mobile">
+                <div id="slider" class="slide-open">
+                    <a href="#" onclick="openSlideNav()">
+                        <span id="slider-svg">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                    </a>
+                </div>
+
+                <!-- created for the slide burger bar to be rabbed by the javascript -->
+                <div id="side-nav">
+                    <a href="#" class="btn-close" onclick="closeSlideNav()">&times;</a>
+                    <a href="#">Home</a>
+                    <a href="#">Activities</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Profiles</a>
+                    <a href="#">Contact</a>
+                    <a href="#">About</a>
+                </div>
+            </nav>
+            <!-- SLIDER FOR SMALLER SCREEN ENDS HERE -->
 
 
             <div class="background-img"></div>
             <div class="content-wrap" id="home">
-                <h1> <img id="header-img" src="../img/university_of_Helsinki_logo2.PNG" alt="logo">Welcome To The University Of Helsinki</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolorum fuga harum pariatur, ad error dolor
-                    ipsam sint, ducimus odio corrupti exercitationem voluptates facere porro praesentium nesciunt, labore
-                    totam ea!</p>
+                <h1>
+                    <img id="header-img" src="../img/university_of_Helsinki_logo2.PNG" alt="logo">WE ARE THE STUDENT AMBASSADORS OF UNIVERSITY OF HELSINKI</h1>
+                <p>Do you have any question about studying in our beautiful University? Or you just want to inquire about life
+                    in Finland generally? We are here for you!
+                </p>
 
                 <a href="ambassador.html#section-2" class="btn">Read More</a>
             </div>
-        
+
         </header>
 
 
@@ -109,76 +110,86 @@
                 <h2 class="content-title">Student Ambassadors</h2>
 
                 <div class="content-text">
-                    <p>we organise Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto distinctio deserunt ea blanditiis,
-                        quibusdam suscipit sint reiciendis pariatur voluptate sit, odit quam facere ab nostrum? Rerum quibusdam
-                        cum molestias consequuntur.
+                    <p>We are students from diverse backgrounds, from all over the world. Our core value is to offer support
+                        to our fellow students in anyway we can. We organise several activities every season and would love
+                        you to join us and share this wonderful experiences. You are welcome anytime!
                     </p>
                 </div>
-             
+
             </div>
         </section>
 
 
-      
+
         <!-- section 2 -->
-        <section id="section-2" class="grid">
+        <section id="section-2" class="try-grid">
             <ul>
                 <li>
-                    <div class="card">
+                    <div>
                         <img class="card-img" src="https://static.pexels.com/photos/574285/pexels-photo-574285.jpeg" alt="image1">
                         <div class="card-content">
-                            <h3 class="card-title">Studying In Helsinki</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, iusto iste! Placeat labore ipsa
-                                odit veniam. Fugiat, unde. Blanditiis, dolores!</p>
+                            <h3 class="card-title">Fall Activities</h3>
+
+                            <p>welcome Fair</p>
+                            <p>Fall Party</p>
+                            <p>Day out in Suomelinna Island</p>
+                            <p>Movie Night</p>
+
                         </div>
                     </div>
                 </li>
 
                 <li>
-                    <div class="card">
+                    <div>
                         <img class="card-img" src="https://static.pexels.com/photos/256520/pexels-photo-256520.jpeg" alt="image1">
-                        <div class="card-content">
-                            <h3 class="card-title">Studying In Helsinki</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, iusto iste! Placeat labore ipsa
-                                odit veniam. Fugiat, unde. Blanditiis, dolores!</p>
+                        <div class="card-content" id="try">
+                            <h3 class="card-title">Winter Activities</h3>
+                            <p>welcome Fair</p>
+                            <p>Hangout With The Ambassadors</p>
+                            <p>Trip to Lapland</p>
+                            <p>Visit to the Musuem</p>
                         </div>
                     </div>
                 </li>
 
+                <li>
+                    <div>
+                        <img class="card-img" src="https://static.pexels.com/photos/300849/pexels-photo-300849.jpeg" alt="image1">
+                        <div class="card-content">
+                            <h3 class="card-title">Spring Activities</h3>
+                            <p>welcome Fair</p>
+                            <p>Open Discussion With The Ambassadors</p>
+                            <p>Trip to Estonia</p>
+                            <p>Career Talk</p>
+                        </div>
+                    </div>
+                </li>
                 <li>
                     <div class="card">
                         <img class="card-img" src="https://static.pexels.com/photos/300849/pexels-photo-300849.jpeg" alt="image1">
                         <div class="card-content">
-                            <h3 class="card-title">Studying In Helsinki</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, iusto iste! Placeat labore ipsa
-                                odit veniam. Fugiat, unde. Blanditiis, dolores!</p>
+                            <h3 class="card-title">Summer Activities</h3>
+                            <p>welcome Fair</p>
+                            <p>Movie Night</p>
+                            <p>Trip to Sweden</p>
+                            <p>Visit to the Summer Cottage</p>
                         </div>
                     </div>
                 </li>
-                <li>
-                        <div class="card">
-                            <img class="card-img" src="https://static.pexels.com/photos/300849/pexels-photo-300849.jpeg" alt="image1">
-                            <div class="card-content">
-                                <h3 class="card-title">Studying In Helsinki</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, iusto iste! Placeat labore ipsa
-                                    odit veniam. Fugiat, unde. Blanditiis, dolores!</p>
-                            </div>
-                        </div>
-                    </li>
             </ul>
         </section>
 
         <div class="video">
-                <iframe  id="video" src="https://www.youtube.com/embed/BIzVRHogids" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
+            <iframe id="video" src="https://www.youtube.com/embed/BIzVRHogids" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
 
 
         <!-- section-3 -->
         <section id="section-3" class="grid">
             <div class="content-wrap">
                 <h2 class="content-title">We are here to support you</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eligendi saepe a quos rerum. Alias distinctio
-                    maxime aut! Saepe, maxime?</p>
+                <p>As we are here to help out, we would also appreciate any support you can offer to other fellow students and
+                    to our community. You can also suggest more events you would be interested in. Come and Let's have fun!</p>
             </div>
         </section>
 
@@ -189,36 +200,47 @@
                 <h2 class="content-title">Contact us</h2>
                 <form action="#" method="post" id="form">
                     <div>
-                    <legend>Name:</legend>
-                    <input type="text" name="name" id="name"  placeholder="Enter your Name">
-                </div>
-                <div>
-                    <legend>Email: </legend>
-                    <input type="email" name="email" id="email" placeholder="Enter your Email">
-                </div>
-                <div>
-                    <legend>Ask Us: </legend>
-                    <textarea name="message" id="message" cols="50" rows="5" placeholder="Ask Me!"></textarea>
-                </div>
-                 <input type="submit" class="btn" id="submit" value="Send">
-                
+                        <legend>Name:</legend>
+                        <input type="text" name="name" id="name" placeholder="Enter your Name">
+                    </div>
+                    <div>
+                        <legend>Email: </legend>
+                        <input type="email" name="email" id="email" placeholder="Enter your Email">
+                    </div>
+                    <div>
+                        <legend>Ask Us: </legend>
+                        <textarea name="message" id="message" cols="50" rows="5" placeholder="Ask Me!"></textarea>
+                    </div>
+                    <input type="submit" class="btn" id="submit" value="Send">
+
                 </form>
             </div>
 
             <div class="box" id="about">
                 <h2 class="content-title">About our community</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptate tenetur ducimus, repudiandae inventore
-                    assumenda molestias hic facilis laudantium quas beatae nemo delectus doloremque quidem earum dicta maxime,
-                    dolores veritatis.</p>
+                <p>This is a volunteer nonprofit community within the University. We promote social interactions amongst students
+                    and also help newcomers to integrate quickly. Every student is welcome to join us for any duration they
+                    can.
+                </p>
 
-                    <h3>Follow us on Social Media</h3>
-                    <div id="social-media">
-                            <a href="http://helsinki.fi"><img id="logo" src="../img/university_of_Helsinki_logo.PNG" alt="logo"></a>
-                            <a href="#"><img src="../img/facebook.png" alt=""></a>
-                            <a href="#"><img src="../img/instagram.png" alt=""></a>
-                            <a href="#"><img id="snapchat" src="../img/snapchat-logo.png" alt=""></a>
-                            <a href="#"><img src="../img/twitter.png" alt=""></a>
-                    </div>
+                <h3>Follow us on Social Media</h3>
+                <div id="social-media">
+                    <a href="http://helsinki.fi">
+                        <img id="logo" src="../img/university_of_Helsinki_logo.PNG" alt="logo">
+                    </a>
+                    <a href="#">
+                        <img src="../img/facebook.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="../img/instagram.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img id="snapchat" src="../img/snapchat-logo.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="../img/twitter.png" alt="">
+                    </a>
+                </div>
             </div>
         </section>
     </main>

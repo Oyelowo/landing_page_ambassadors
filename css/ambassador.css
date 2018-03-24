@@ -99,10 +99,9 @@ h1, h2, h3{
     color: #333;
 }
 
-.card-content{
-    padding: 1.5em;
+.card-content p{
+    padding: 1rem;
 }
-
 #section-3{
     background: url("../img/grunge_wall.png");
     color: #333;
@@ -114,6 +113,8 @@ h1, h2, h3{
     padding: 1em;
     color: #fff;
 }
+
+
 
 #section-4 .box:first-child{
     background: rgb(11, 40, 41);
@@ -253,7 +254,8 @@ h1, h2, h3{
         position: relative;
         top: -0.8rem;
     }
-  
+
+
 
 /* MEDIA QUERY FOR SMALL SCREENS' NAVIGATION BAR*/
 @media(max-width: 768px){
@@ -399,3 +401,4 @@ body{
    }
 
 }
+
