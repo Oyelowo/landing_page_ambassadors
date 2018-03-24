@@ -225,7 +225,8 @@ h1, h2, h3{
     }
 
     #form div{
-        display: flex;
+        display: block;
+        text-align: start;
         margin-top: 1rem;
     }
 
@@ -236,10 +237,11 @@ h1, h2, h3{
         width: 100%;
     }
 
+
     #submit{
         display: block;
-        width: 5rem;
-        height: 3rem;
+        position: relative;
+        top: -0.8rem;
     }
   
 
