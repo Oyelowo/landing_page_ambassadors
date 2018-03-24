@@ -218,7 +218,7 @@ h1, h2, h3{
 
 
 
-/* media query */
+/* MEDIA QUERY FOR SMALL SCREENS' NAVIGATION BAR*/
 @media(max-width: 700px){
 body{
     overflow-x: hidden;
@@ -226,7 +226,6 @@ body{
 #nav-mobile{
     background-color: black;
     height: 4rem;
-
 }
 
 #slider{
@@ -284,8 +283,8 @@ body{
 
     /* place the home button to the right side for smaller screen */
     #nav-right ul li{
-        /* grid-column: 3/5; */
-        grid-column-end: span 3;   /*alternative to above */
+        /* grid-column: 5/6; */
+        grid-column-end: span 5;   /*alternative to above */
         background: #111;
     }
     /* push the grid forward, so it does not cover the slider */
