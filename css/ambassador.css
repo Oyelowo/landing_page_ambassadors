@@ -130,11 +130,16 @@ h1, h2, h3{
    #nav-center{
        position: relative;
    }
+   
    #search-svg{
        position: absolute;
-       top: 0.1rem;
-       color: #aaa;
-       right: 0;
+       top: 0.07rem;
+       color: #eaeaea;
+       right: -0.8rem;
+       background: #bbb;
+       font-size: 0.9rem;
+       
+
    }
 /* ends here */
 
@@ -266,8 +271,7 @@ body{
 
     #nav-left{
         display: inline;
-        padding-left: 3rem;
-        border: 1px red solid; 
+        padding-left: 3rem; 
     }
     /* push the grid forward, so it does not cover the slider */
   
