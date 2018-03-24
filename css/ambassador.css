@@ -53,8 +53,8 @@ h1, h2, h3{
 
 #header .background-img{
     position: absolute;
-    background: #333 url("https://static.pexels.com/photos/247929/pexels-photo-247929.jpeg");
-    background-position: center;
+    background: #333 url("../img/image1.jpg");
+    background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -98,11 +98,15 @@ h1, h2, h3{
     color: #333;
 }
 
+#section-2 img{
+    height: 40vh;
+}
+
 .card-content p{
     padding: 1rem;
 }
 #section-3{
-    background: url("../img/grunge_wall.png");
+    background: url("https://oyelowo.github.io/landing_page_ambassadors/img/grunge_wall.png");
     color: #333;
     padding: 2em;
 }
@@ -138,7 +142,7 @@ h1, h2, h3{
 }
 
 #main-footer a{
-    color: rgb(221, 212, 164);
+    color: rgb(163, 214, 45);
     text-decoration: none;
 }
 
