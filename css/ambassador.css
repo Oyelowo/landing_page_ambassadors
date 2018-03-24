@@ -220,8 +220,28 @@ h1, h2, h3{
     box-shadow: 1px 8px 16px 1px rgba(0,0,0,0.3);
    }
 
+   #form{
+       grid-row-gap: 1rem;
+    }
 
+    #form div{
+        display: flex;
+        margin-top: 1rem;
+    }
 
+    #form div :not(#message){
+        height: 2.5rem;
+    }
+    #name, #email, #message{
+        width: 100%;
+    }
+
+    #submit{
+        display: block;
+        width: 5rem;
+        height: 3rem;
+    }
+  
 
 /* MEDIA QUERY FOR SMALL SCREENS' NAVIGATION BAR*/
 @media(max-width: 768px){
@@ -355,6 +375,7 @@ body{
    .box, #main-footer div{
        grid-column: span 2;
    }
+
 
    #section-2 ul{
        display: flex;
