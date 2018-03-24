@@ -85,7 +85,7 @@
 
 
     <!-- main area -->
-    <main id="main" onclick="closeSlideNav()">
+    <main id="main" on-drag-down="closeSlideNav()" on-double-tap="closeSlideNav()" onclick="closeSlideNav()">
 
         <header id="header" class="grid">
             <div class="background-img"></div>
@@ -111,15 +111,12 @@
                         cum molestias consequuntur.
                     </p>
                 </div>
-           
+             
             </div>
         </section>
 
-        <section id="video">
-                <iframe src="https://www.youtube.com/embed/BIzVRHogids" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <iframe src="https://www.youtube.com/embed/__VkyJWH5ak" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <section/div>
 
+      
         <!-- section 2 -->
         <section id="section-2" class="grid">
             <ul>
@@ -168,6 +165,10 @@
             </ul>
         </section>
 
+        <div id="video">
+                <iframe src="https://www.youtube.com/embed/BIzVRHogids" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+
 
         <!-- section-3 -->
         <section id="section-3" class="grid">
@@ -203,7 +204,7 @@
     <!-- footer -->
     <footer id="main-footer" class="grid">
         <div>UH Student Ambassadors</div>
-        <div>Coded by
+        <div>Coded by &copy;
             <a href="https://www.linkedin.com/in/oyelowo-oyedayo/" target="_blank">Oyelowo Oyedayo</a>
         </div>
     </footer>
