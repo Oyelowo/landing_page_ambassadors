@@ -124,10 +124,10 @@ h1, h2, h3{
 }
 
 #social-media{
-    display: block;
+    display: inline-block;
 }
 #social-media img{
-    width: 4rem;
+    width: 7%;
 }
 
 /* footer */
