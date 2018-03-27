@@ -74,7 +74,7 @@ h1{
 }
 
 .card-content p::before{
-    content: url("../img/mark-box.PNG");
+    content: url("../img/mark-box2.PNG");
     position: relative;
     left: -0.2em;
 }
@@ -110,6 +110,7 @@ h1{
 
 .card-content p{
     padding: 1rem;
+    font-size: 1.1em;
 }
 
 #section-3{
