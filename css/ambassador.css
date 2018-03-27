@@ -108,9 +108,19 @@ h1{
     height: 40vh;
 }
 
+#section-2 ul li{
+    background:lavender;
+}
 .card-content p{
-    padding: 1rem;
-    font-size: 1.1em;
+    padding: 1.4em;
+    font-size: 98%;
+    text-align: left;
+    border: 1px #ddd solid;
+    color: #000000;
+}
+
+.card-title{
+    font-variant: small-caps;
 }
 
 #section-3{
