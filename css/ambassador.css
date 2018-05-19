@@ -267,6 +267,10 @@ box-shadow: 1px 8px 16px 1px rgba(0,0,0,0.3);
     transform: scale(1.5);
 }
 
+#social-media a{
+    text-decoration: none;
+}
+
 /* footer */
 #main-footer{
     padding: 2em;
